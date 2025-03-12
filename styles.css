@@ -1,12 +1,14 @@
 
-#hero {
-    padding: 260px 0 ;  
-
-}
 
 
 #hero {
-    background-color: #005843FF;
+    height: 100vh; 
+    padding: 50px 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #005843FF; 
 }
 
 .navbar{
@@ -120,16 +122,67 @@ h5 {
     margin-top: -10px;
 }
 
+
 .logs img {
-    width: 80px;  
-    height: 80px; 
+    width: 70px;  
+    height: 70px; 
     object-fit: contain; 
 }
 
+
+
 h2 {
-    max-width: 1000px;
+    max-width: 1700px;
     margin: 0 auto;
     text-align: center;
     font-size:2.8rem;
     padding: 20px;
+}
+
+
+/*Acces*/
+.col-md-5 img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    padding-left: 150px;
+}
+
+.col-md-5  {
+    background-color: #FEFEFEFF;
+}
+
+
+.col-md-5 h2 {
+    text-align: left;
+    font-size:4rem;
+}
+
+
+.col-md-5 h4 {
+    color: #96989BFF;
+    font-size: 1.50rem;
+    font-weight: 350;
+    padding: 20px;
+    max-width: 700px
+
+}
+
+.list{
+    color: black;
+    font-size: 1.40rem;
+    font-weight: 520;
+    padding: 20px;
+    list-style: none; 
+    padding-left:10px; 
+}
+
+
+.list i {
+    font-size: 24px; 
+    color: black; 
+    padding-right:10px; 
+    color: #005843;
+
 }
