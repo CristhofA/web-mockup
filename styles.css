@@ -1,7 +1,18 @@
+
+#hero {
+    padding: 260px 0 ;  
+
+}
+
+
 #hero {
     background-color: #005843FF;
 }
 
+.navbar{
+    background-color: #005843FF;
+
+}
 .navbar-nav .nav-item {
     margin: 0 15px;
 }
@@ -10,6 +21,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    
 }
 
 .navbar-brand img {
@@ -106,4 +118,18 @@ h5 {
     font-weight: 200;
     padding: 20px;
     margin-top: -10px;
+}
+
+.logs img {
+    width: 80px;  
+    height: 80px; 
+    object-fit: contain; 
+}
+
+h2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-size:2.8rem;
+    padding: 20px;
 }
