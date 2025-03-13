@@ -124,11 +124,11 @@ h1 {
 }
 
 h5 {
-    max-width: 600px;
+    max-width:700px;
     margin: 0 auto;
     text-align: center;
     color: #FFFFFFFF;
-    font-size: 1.75rem;
+    font-size: 1.50rem;
     font-weight: 200;
     padding: 20px;
     margin-top: -10px;
