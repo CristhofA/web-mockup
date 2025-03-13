@@ -10,16 +10,17 @@ El proyecto utiliza **Bootstrap** para la maquetación y diseño responsivo.
 - **Bootstrap 5**: Diseño responsivo y componentes.  
 - **Bootstrap Icons**: Iconos para la interfaz.  
 - **JavaScript**: Para la animación.  
+## Estructura del Proyecto  
+
+- 📂 Proyecto-COCA
+- ├── 📂 img              # Imágenes utilizadas en el sitio
+- ├── 📂 mockup           # Referencia del diseño
+- ├── styles.css          # Hoja de estilos principal
+- ├── script.js           # Archivo de funcionalidades dinámicas
+- ├── index.html          # Página principal
+- ├── README.md           # Documentación del proyecto
+
 
 ## Captura de Pantalla  
 ![Mockup](mockup/2.webp)  
 
-## Estructura del Proyecto  
-
-📂 Proyecto-COCA
-├── 📂 img              # Imágenes utilizadas en el sitio
-├── 📂 mockup           # Referencia del diseño
-├── styles.css          # Hoja de estilos principal
-├── script.js           # Archivo de funcionalidades dinámicas
-├── index.html          # Página principal
-├── README.md           # Documentación del proyecto
