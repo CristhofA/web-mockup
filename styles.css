@@ -305,3 +305,78 @@ h2 {
     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
 }
 
+/*sing*/
+
+#Sign .container {
+    background-color: white;
+}
+
+#Sign  h2 {
+    font-size: 4rem;
+    color: #10162F;
+    font-weight: 500 !important; 
+
+}
+
+#Sign  p {
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+#Sign .store-badge {
+    height: 50px;
+}
+
+.store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.store-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+}
+
+.google-play {
+    background-color: #000E25; 
+    color: white;
+}
+
+.app-store {
+    background-color: white;
+    color: #000E25;
+    border: 2px solid #000E25;
+}
+
+.store-badge .small-text {
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.store-badge .large-text {
+    font-size: 20px;
+}
+
+.store-badge .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.store-badge .store-logo {
+    width: 30px; 
+    height: auto;
+}
+
+.store-badge:hover {
+    transform: scale(1.05); 
+}
+
