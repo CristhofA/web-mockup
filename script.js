@@ -7,3 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }, index * 500); // Retraso de 500ms entre cada elemento
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Pricing Plans Page Loaded");
+});

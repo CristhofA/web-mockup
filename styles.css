@@ -452,3 +452,81 @@ h2 {
 #footer-bottom p, #footer-bottom span {
     font-size: 1.2rem; 
 }
+
+
+/**/
+.pricing-table {
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: left;
+}
+
+.card.popular {
+    background-color: #005843FF;
+    color: white;
+    position: relative;
+}
+.badge-popular {
+    background-color: #FFE51DFF;
+    color: black;
+    padding: 20px 30px;
+    border-radius: 40px;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn-custom {
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.card ul li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-custom {
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-size: 20px;
+    display: block;
+    width: fit-content;
+    margin-left: 0;
+}
+
+.btn-outline-success {
+    border-color: #EBF2F0FF;
+    color: #005843FF;
+    background-color: #EBF2F0FF;
+}
+.btn-outline-success:hover {
+    background-color: #005843FF;
+    color: white;
+}
+
+.btn-warning {
+    background-color: #FFE51DFF;
+    color: #005843FF;
+    border-color: #FFE51DFF;
+}
+.btn-warning:hover {
+    background-color: #E0A800;
+    color: white;
+}
+
+.card:nth-child(1) .list-unstyled li i { color: #B7E5C6FF; }
