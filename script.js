@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     elements.forEach((element, index) => {
         setTimeout(() => {
             element.classList.add("show");
-        }, index * 500); // Retraso de 500ms entre cada elemento
+        }, index * 400); // Retraso de 500ms entre cada elemento
     });
 });
 
