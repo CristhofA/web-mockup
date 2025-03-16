@@ -3,11 +3,15 @@
 
 Este repositorio contiene el código fuente de la página web basada en un mockup.  
 El proyecto utiliza **Bootstrap** para la maquetación y diseño responsivo.  
+
 ## Requisitos Previos
 Para visualizar y modificar el proyecto, asegúrate de tener instalados los siguientes programas:
 - Un navegador web moderno (Google Chrome, Firefox, Edge, etc.).
 - Un editor de código (VS Code, Sublime Text, Atom, etc.).
 - Un servidor local opcional (XAMPP, WAMP o Live Server en VS Code) para pruebas.
+## 🌐 Ver mi página web  
+ [Haz clic aquí para verla](https://cristhofa.github.io/web-mockup/)
+
 ##  Cómo Ejecutar el Proyecto
   1. **Clonar el repositorio**  
    ```bash
